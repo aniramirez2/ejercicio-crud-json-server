@@ -1,0 +1,15 @@
+
+{
+    "name": "crud-productos",
+    "version": "1.0.0",
+    "description": "Proyecto CRUD de productos con JSON Server y Axios",
+    "main": "main.js",
+    "scripts": {
+        "start": "json-server --watch db.json --port 3000",
+        "dev": "concurrently \"npm run start\" \"http-server -p 8080\""
+    },
+    "dependencies": {
+        "axios": "^0.21.4",
+        "json-server": "^0.16.3"
+    }
+}
